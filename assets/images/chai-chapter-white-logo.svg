@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" width="280" height="64">
+  <defs>
+    <filter id="whiteGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Left Icon Emblem: Chai Cup & Open Book in Pure White -->
+  <g transform="translate(6, 4)">
+    <!-- Circular Badge Base -->
+    <circle cx="26" cy="28" r="26" fill="#ffffff" filter="url(#whiteGlow)"/>
+    <circle cx="26" cy="28" r="23.5" fill="none" stroke="#fb5849" stroke-width="1.5" stroke-dasharray="3,1.5" opacity="0.45"/>
+    
+    <!-- Open Book Base -->
+    <path d="M14 38 C 19 36, 24 37, 26 39 C 28 37, 33 36, 38 38 C 38 41, 33 39.5, 26 41.5 C 19 39.5, 14 41, 14 38 Z" fill="#fb5849"/>
+    <path d="M26 39 L26 41.5" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Tea Cup Saucer & Cup Body -->
+    <path d="M16 34 C 20 36.5, 32 36.5, 36 34 C 34 35, 18 35, 16 34 Z" fill="#fb5849"/>
+    <path d="M18 22 L34 22 C 33.5 28.5, 30.5 32, 26 32 C 21.5 32, 18.5 28.5, 18 22 Z" fill="#fb5849"/>
+    <!-- Cup Handle -->
+    <path d="M33 24 C 36.5 24, 37 28.5, 33 29.5" fill="none" stroke="#fb5849" stroke-width="2" stroke-linecap="round"/>
+    <!-- Chai Liquid Fill -->
+    <ellipse cx="26" cy="23" rx="6.5" ry="1.8" fill="#e89843"/>
+
+    <!-- Rising Aromatic Steam Waves -->
+    <path d="M22 18 C 21 15, 23 14, 22 11" fill="none" stroke="#fb5849" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M26 19 C 25 15.5, 27 14, 26 10" fill="none" stroke="#fb5849" stroke-width="1.8" stroke-linecap="round" opacity="0.95"/>
+    <path d="M30 18 C 29 15, 31 14, 30 11" fill="none" stroke="#fb5849" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(68, 0)">
+    <!-- "Chai" -->
+    <text x="0" y="37" font-family="'Poppins', 'Segoe UI', -apple-system, sans-serif" font-size="27" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Chai</text>
+    
+    <!-- "&" Ampersand Accent -->
+    <text x="61" y="37" font-family="'Dancing Script', 'Brush Script MT', cursive" font-size="32" font-weight="700" fill="#ffe2dc">&amp;</text>
+    
+    <!-- "Chapter" -->
+    <text x="83" y="37" font-family="'Poppins', 'Segoe UI', -apple-system, sans-serif" font-size="27" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Chapter</text>
+    
+    <!-- Subtitle: Artisanal Chai & Book Lounge -->
+    <text x="1" y="52" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="7.5" font-weight="700" fill="#ffffff" opacity="0.88" letter-spacing="2.8">ARTISANAL CHAI &amp; BOOK LOUNGE</text>
+  </g>
+</svg>
